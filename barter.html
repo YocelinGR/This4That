@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h2>¡Intercambia!</h2>
+    <input type="checkbox" name="Truque" value="Servicio">Ofresco un servicio<br>
+    <input type="checkbox" name="Truque" value="Producto">Ofresco un producto<br>
+
+    <section id = "services">
+      <input type="text" id = "typeService" placeholder="¿Qué servicio ofreces?">
+      <input type="text" id = "barter-date" placeholder ="Fecha de inicio del servicio" title="Usa el formato AAAA-MM-DD">
+      <input type="text" id = "barter-period" placeholder ="Indica cuantos días ofreceras el servicio" title = "Por favor ingresa el número de días de tu servicio">
+      <input type="button" id ="create-service" value ="Enviar">
+    </section>
+
+    <section id = "product">
+      <input type="text" id = "typeProduct" placeholder="¿Qué producto ofreces?">
+    <form>
+      <select name="state">
+        <option selected> Estado del Producto
+        <option value="1">Nuevo
+        <option value="0">Usado
+      </select>
+    </form>
+      <input type="text" id = "barter-date" placeholder ="Ingresa la fecha de trueque" title="Usa el formato AAAA-MM-DD">
+      <input type="text" id = "barter-schedule" placeholder ="Ingresa el horario del trueque" title="Usa el formato AAAA-MM-DD">
+      <input type="button" id ="product-state" value="Enviar">
+    </section>
+  </body>
+</html>
